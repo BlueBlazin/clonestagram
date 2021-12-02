@@ -37,6 +37,7 @@ function Header() {
           align-items: center;
           justify-content: space-between;
           padding: 0 10%;
+          box-sizing: border-box;
         `}
       >
         <SearchBar />

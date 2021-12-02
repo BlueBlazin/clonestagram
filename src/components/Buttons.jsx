@@ -25,8 +25,17 @@ export function NewPostButton() {
 
         &:hover {
           background-position: right center; /* change the direction of the change here */
-          color: #fff;
-          text-decoration: none;
+          /* color: #fff;
+          text-decoration: none; */
+        }
+
+        &:active {
+          background-image: linear-gradient(
+            to right,
+            #ff2f7f 0%,
+            #a924dd 51%,
+            #ff2f2f 100%
+          );
         }
       `}
     >
